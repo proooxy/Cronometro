@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #f1f1f1;
+    
+}
+
+.max-width {
+    height: 16rem;
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10%;
+    background-color: #FFF;
+    box-shadow: 0 0 1px rgb(196, 196, 196, 0.5);
+    text-align: center;
+    border-radius: 0 1rem 1rem 1rem;
+    border: none;
+}
+
+
+
+
+.max-width > button{
+    margin-top: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px ;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI';
+    font-size: 1.1em;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 0px 7px 7px 7px;
+    margin: 1rem;
+   
+}
+
+button:hover {
+    background-color: #a1c0d1;
+    transform: scale(1.02);
+}
+
+button:active {
+    background-color: #111;
+}
+
+.bg-green {
+    background-color: #7facc7;
+}
+
+.bg-yellow {
+    background-color: #7facc7;
+}
+
+.bg-red {
+    background-color: #d1a1a1;
+}
+.max-width > p {
+    margin-top: 0.8rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: start;
+    margin-left: 5px;
+    color: #7facc7;
+    font-family: 'Roboto', sans-serif;
+}
